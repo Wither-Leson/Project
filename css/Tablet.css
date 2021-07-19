@@ -1,11 +1,11 @@
-@media only screen and (min-width: 321px) and (max-width: 768px){
-	.header-in{width:100%;max-width:767px;}
+@media screen and (min-width: 321px) and (max-width: 768px){
+	.header-in{max-width: 768px;min-width: 321px;max-width:767px;}
 	.logo{margin-left:80px;}
 	.t-menu{
 	display:block;
     width: 100px;
 	height:0px;
-    margin:55px 50px 0 0;
+    margin:55px 140px 0 0;
 	opacity:0;background-color:#ffffff;
 	}
 	.box_a{

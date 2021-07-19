@@ -269,3 +269,36 @@ header p{font-size: 20px;}
 cursor:pointer;
 scroll-behavior:smooth;
 }
+
+
+.C{
+	right: 90px;
+	margin: 10px 0 0 0;
+    float: right;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+	}
+.A{
+	width:20px;height:2px;margin:10px 10px;
+	background-color:white;transition:0.5s ease;transform:translateY(0px) rotate(0deg);
+}
+.B{
+	width:20px;height:2px;margin:15px 10px;
+	background-color:white;transition:0.5s ease;transform:translateY(0px) rotate(0deg);
+}
+.A_a{
+  transform:translateY(9px) rotate(45deg);
+}
+.B_b{transform:translateY(-9px) rotate(-45deg);}
+	.t-menu.T_m{
+		height:auto;
+		overflow-y:visible;
+	transition:0.5s ease;
+	opacity:1;
+	}
+	.T_m .box_a{height:50px;opacity:1;
+	}
+	.T_m .box_a a{
+		cursor: pointer;
+	}
