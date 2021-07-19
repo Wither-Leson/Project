@@ -1,0 +1,85 @@
+@media only screen and (min-width: 0px) and (max-width: 320px){
+	.bg-img{width:100%;height:auto;}
+	#header{width:100%;}
+	.header-in{width:100%;max-width:280px;}
+	.logo{margin-left:10px;    transform: scale(.9);}
+	.t-menu{
+	display:block;
+    width: 100px;
+	height:0px;
+    margin:55px 50px 0 0;
+	opacity:0;background-color:#ffffff;
+	}
+	.box_a{
+		height:0px;
+		opacity:0;
+		background-color:#ffffff;}
+		.me-innt div div a{width:320px;}
+		#prev{left:20px;}
+		#next{Right:20px;}
+		#pointsDiv{margin:0 auto;}
+		.box_a a{cursor:default;}
+	.box_a:hover {filter:invert(20%);}
+	.me-innt{margin:0;width:320px;}
+	.C{left:240px;width:40px;height:40px;background-color:rgba(0,16,64,0.4);}
+	.menu-0,.menu-1,.menu-a,.menu-b,.menu-c,
+	.menu-d,.menu-e,.menu-f,.f-menu,.f-msg,
+	.msg,.body-b,.footer-in,.menu-g
+	{width:320px;margin-left:0px;overflow:hidden;}
+	.menu-1 div,.menu-b div,.menu-d div{width:320px; display:flex;}
+	.menu-1 div a,.menu-b div a,.menu-d div a{margin:0 15px 20px;}
+	.mp{font-size:10px;}
+	.G_H{width:320px;}
+	.G_H img{width: 320px;height: 400px;margin: -50px 0 0 5px;}
+	.G_hover{width:280px;}
+	.a1{width:125px;}
+	.a2{padding-left: 100px;width:125px;}
+	.f-msg{padding:0 auto; width:100%;}
+	.msg p{font-size:10px;}
+	.f-menu{margin:0 auto; width:100%;}
+	.f-menu p{ font-size:12px;}
+	.f-bod{width:30px;}
+ .footer .footer-in,.footer .page-top{width:100%;}
+ .footer .page-text {width:320px;}
+ .page-text ul li{margin:0 5px;}
+ .Btm{margin-right:40px;}
+ 
+ 
+ /*==================index===========================*/
+ 
+ .body,.bo_dyb,.f-menu{width:320px;min-width:0px;}
+ .p2_m_a{width:768px;}
+ .st_ms{width:650px;padding:0 20px;}
+ 
+ /*=======================news=====================*/
+ 
+ .b_p.b_m{width:768px;margin:0;}
+.b_m.p3_m_a{width:768px;}
+.b_m.p3_m_a div{width:768px;}
+.b_m.p3_m_a div div{padding:15px 0 10px 30px;width:700px;}
+.b_m.p3_m_a div div p{width:330px;height:auto;font-size:18px;padding:15px 0 0 15px;} 
+ 
+ /*=====================Online=====================*/
+ /*=====================APP=========================*/
+ 
+ .me-a{
+    height: 230px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+	}
+	.me-b{margin:0 20px;}
+ .div_margin li{width:200px;height:40px;}
+ .p6_m{width:740px;}
+ .dd_me{padding-left: 20px;
+    width: 700px;
+    height: 130px;}
+ 
+ /*===================Sev=========================*/
+ 
+ .p5_m_p{width:740px;}
+ .p5mp{width:740px;}
+ 
+ /*===================other=======================*/
+ 
+}
