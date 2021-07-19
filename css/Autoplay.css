@@ -1,48 +1,89 @@
-
-.m-ho{width: 1000%; height: 100%; 
-	position: absolute;
-	transition:1.5s;
-}
-.m-cont:hover .m-L,.m-cont:hover .m-R{opacity: 1;
-	z-index:3;}
-.m{    
-	top: 50%;
-    left: 50%;
-    margin-top: -25px;
-}
-.m-L{
-	background-image: url("../img/left.png");
-	background-repeat:no-repeat;
-	margin-left: -40%;
-	opacity: 0;
-	cursor:pointer;
-	width:50px;height:50px;
-	position:absolute;
-}
-.m-R {
-	
-	background-image: url("../img/right.png");
-	background-repeat:no-repeat;
-	margin-left: 36%;
-	opacity: 0;
-	cursor:pointer;
-	width:50px;height:50px;
-	position:absolute;
-}
-
-.m-L:hover ,.m-R:hover{filter: invert(1);}
+ /*去除內邊距,沒有鏈接下划線*/
 
 
+    /*最外圍的div*/
+    #container {
+      width: 984px;
+      height: 300px;
+      overflow: hidden;
+      position: relative; /*相對定位*/
+      padding: 0 auto;
+    }
 
-.m-i{width:6000px;position:relative;display:block;min-height:300px;height:100%;left:-50vw;}
+    /*包含所有圖片的<div>*/
+
+    #list {
+      width: 4200px; /*7張圖片的寬: 7*600 */
+      min-height: 300px;
+		height:100%;
+      position: relative; /*絕對定位*/
+	  margin-left:200px;
+	  display:flex;
+    }
+
+    /*所有的圖片<img> 的大小*/
+    #list img {
+      width: 600px;
+      height: 100%;
+    }
+
+    /*包含所有圓點按鈕的<div>*/
+    #pointsDiv {
+      position: absolute;
+      height: 20px;
+      width: 100px;
+	  margin:0 45%;
+      z-index: 2;
+      bottom: 20px;    
+	  display: flex;
+    justify-content: center;
+	background-color:#0000b3;
+	border-radius:10px;
+    align-items: center;
+    }
+
+    /*所有的圓點<span>*/
+
+    #pointsDiv span {
+      cursor: pointer;
+      float: left;
+      border: 1px solid #fff;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #000000;
+      margin:0 2.5px;
+    }
+
+    #pointsDiv .on {
+      background: #ffffff;
+    }
 
 
-.menu .m-ho .m-img{display:inline-block;}
-.m-img{
-	width:65vw;max-width:1200px;min-width:600px;position: relative;
-	overflow:hidden;height:100%;min-height:300px;vertical-align:text-top;text-align:center;}
-	.m-img a{display:inline-block;}
-	.m-img:hover a img{opacity:.7;}
-	.m-img a img{max-width:1200px;width:65vw;min-width:600px;max-height:600px;height:30vw;min-height:300px;opacity:1;background-repeat: no-repeat;}
+    .arrow {
+      cursor: pointer;
+      font-weight: bold;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      z-index: 2;
+      top: 140px;
+    }
 
+    
+    .arrow:hover {
+        filter: invert(1);
+    }
 
+    
+    #container:hover .arrow {
+      display: block;
+    }
+
+    #prev {
+      left: 250px;
+    }
+
+    #next {
+      right: 250px;
+    }

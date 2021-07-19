@@ -21,9 +21,11 @@ header p{font-size: 20px;}
 
 .logo{background:url("../img/logo.png")no-repeat;
 	width: 136px; height: 34px; margin:10px 0 0 0; padding-right:50px; float: left;}
-.t-menu{float: right;width: 528px;
+.t-menu{
+	float: right;width: 528px;
 	height: 50px;
-	display: inline-flex;}
+	display: inline-flex;
+	}
 
 /*======================HEADER=========================*/
 .box_a{
@@ -92,6 +94,11 @@ header p{font-size: 20px;}
 
 .body-a{width: 100%; min-width: 984x;
 	height: 100%; min-height: 1966px;}
+	.me-innt{
+		width:1000px;height:300px;display: flex;justify-content: center;
+		background-color:rgba(0,0,0,0.6);z-index:-1;margin:0 auto;
+		}
+	
 .menu{width: 100%; height: 30vw; 
 	min-height: 300px;
 	position: relative;
@@ -139,7 +146,7 @@ header p{font-size: 20px;}
 .menu-b div div {width:165px;height:200px;
     margin: 0 0 20px;
     background-color: white;}
-	.menu-b  div div p{
+.menu-b  div div p{
 		font-size:15px;
     padding-top: 10px;}
 .menu-b div div img{width:100%;height:100%;border-radius:5px;}
@@ -150,7 +157,7 @@ header p{font-size: 20px;}
 .menu-c{width: 1000px;height: 110px;color: #ff8200;display:flex;justify-content: space-between;}
 .menu-d{width: 1000px;height: 300px;}
 
-.menu-d div{width:1000px;height:260px;display:flex;flex-wrap:wrap;    padding: 5px 20px 60px 5px;
+.menu-d div{width:1000px;height:260px;display:flex;flex-wrap:wrap;    padding: 5px 20px 80px 5px;
     border-radius: 5px;}
 .menu-d div div {width:165px;height:200px;
     margin: 0 0 20px;
@@ -187,10 +194,15 @@ header p{font-size: 20px;}
 .msg{width: 980px;height: 80px;margin: 0 0 10px;
 	font-size:20px;}
 	.msg p { padding: 20px 0 0 0;}
+	.G_H{width:1000px;height:300px;overflow:hidden;}
 .G_hover{width:500px;height:300px;position:absolute;z-index:2;}	
+.a1{width:500px;height:300px;position:absolute;}
+.a2{width:500px;height:300px;position:absolute;padding-left:500px;}
+.G_H img{width:1000px;height:600px;margin:-165px 0 0 0px;}
 .G_hover:hover {background-color:rgba(191,223,255,0.6);}
 
-
+.menu-g{width:1000px; height:60px; color:#ff8200;}
+.menu-g p{font-size:30px; text-align:center;filter: drop-shadow(4px 2px 5px #000000);}
 /*=================B-BO============================*/
 
 .body-c{width: 984px;height: 23px;margin: 30px auto 30px;}

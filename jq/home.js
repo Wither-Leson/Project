@@ -424,9 +424,6 @@ $(document).ready(function(){
          $(".bgimg").css("background-image",bg);
 });
 /*===================randombg==================*/
-	
-	
-	
 
 	function pagt(){ 
             window.scroll(0,0); 

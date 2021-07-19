@@ -14,7 +14,7 @@
 .b_p{width: 1000px; margin: 0 auto;
 	background-color:rgba(0,16,64,0.5);border-radius:15px;}
 	.b_p hr{height:25px;margin:0;border:none;background-color:rgba(76,255,255,0.7);}
-	.p3_m_a div div{display:flex;padding:15px 100px;color:white;}
+	.p3_m_a div div{display:flex;padding:15px 100px;color:white;background-color:rgb(154 217 0 / 62%);}
 	.p3_m_a div div p{padding:30px 20px 0 50px;font-size:20px;}
 	.p3_m_a div div img {width: 300px; height:400px;}
 /*========================Game=============================*/
@@ -34,10 +34,14 @@
 
 /*========================QA=============================*/
 .p6_m{width:1000px;min-height:600px;background-color:rgba(0,16,64,0.5);font-size:25px;color:#ff9999;}
-.me-a{width: 1000px;height: 115px;color: #ff8200;display:flex;justify-content: space-between;}
+.me-a{width: 1000px;height: 115px;color: #ff8200;display:flex;justify-content: space-between;
+	background-color:rgba(0,102,51,0.6);}
+.me-b{700px;height: 85px;margin-right: 50px;margin-top: 20px;}
+.me-b ul{display: flex;justify-content: space-around;flex-wrap: wrap;}
+
 .div_margin{display:flex;}
 .div_margin li{width:250px;height:30px;margin:3px 0;
-font-size:20px;background-color:rgba(38,92,255,0.5);
+font-size:20px;background-color:rgba(68,68,68,0.8);
 margin:5px;border-radius:15px;display: flex;
 justify-content: space-around;border:0.5px solid black;
 cursor:pointer;}
