@@ -26,7 +26,6 @@ $(function () {
   // 1. 點擊向右(左)的圖標, 平滑切換到下(上)一頁
    //點擊向右的圖標，切換到下一頁，list向左移動600px,即(相對於container)left：-600px
     //點擊向左的圖標，切換到上一頁，list向右移動600px,即(相對於container)left：+600px
-	
   $next.click(function () {
     nextPage(true)
   })

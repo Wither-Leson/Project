@@ -26,6 +26,8 @@
       width: 600px;
       height: 100%;
     }
+	
+	#list a:hover {opacity:.8;}
 
     /*包含所有圓點按鈕的<div>*/
     #pointsDiv {

@@ -135,7 +135,7 @@ $(document).ready(function(){
 		$(".GA-out").html(
 		`
 		<a href="https://service.antspw.com/MSGBoardUI/MSGBoard/GASH">
-		<img src="img/sev/GA1.jpg">
+		<img style="width:55%;" src="img/sev/GA1.jpg">
 		</a>
 		<p>
 		<br>親愛的玩家，您們好：<br>
@@ -428,4 +428,5 @@ $(document).ready(function(){
 	function pagt(){ 
             window.scroll(0,0); 
     } ;
+	
 /*=================pagescroll===================*/	
